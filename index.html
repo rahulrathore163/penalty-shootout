@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>penalty-shootout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="row">
+        <div class="col">
+        <img class="profileicon" src="https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Brazilian_Football_Confederation_logo.svg/1200px-Brazilian_Football_Confederation_logo.svg.png" height="150px" width="150px" alt="logo">
+        <span class="name" id="team1name"></span>
+        <div class="row runs" id="team1round">
+            <span class="col"></span>
+            <span class="col"></span>
+            <span class="col"></span>
+            <span class="col"></span>
+            <span class="col"></span>
+        </div>
+    </div>
+    <div class="row size">
+        <span class="col" id="team1score"></span>
+        <span class="col">--</span>
+        <span class="col" id="team2score"></span>
+    </div>
+    <div class="col">
+        <img class="profileicon" src="https://w7.pngwing.com/pngs/950/739/png-transparent-afa-logo-argentina-national-football-team-fifa-world-cup-argentine-football-association-logo-others-miscellaneous-cdr-text.png" height="150px" width="150px">
+        <span class="name" id="team2name"></span>
+        <div class="row runs" id="team2round">
+            <span class="col"></span>
+            <span class="col"></span>
+            <span class="col"></span>
+            <span class="col"></span>
+            <span class="col"></span>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <button id="strike" onclick="ButtonClick()"></button>
+    </div>
+    <div class="row" id="result"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
